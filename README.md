@@ -42,8 +42,8 @@ Integration testing and documentation
 
 # 📦 Getting Started
 
-- Clone repository
-- 
+Clone repository
+
 git clone https://github.com/your-username/smartbudget.git
 
 cd smartbudget
