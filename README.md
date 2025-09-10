@@ -1,66 +1,67 @@
-# SmartBudget
-SmartBudget is a personal finance API that helps users track expenses, set budgets, and monitor financial health.
-Built with Java + Spring Boot, it demonstrates API design, secure authentication, and persistence with PostgreSQL.
+# 📊 SmartBudget (.NET)
+🇧🇷 Português
 
-# 🚀 Features
+SmartBudget é uma API REST desenvolvida em ASP.NET Core para o gerenciamento de finanças pessoais. Permite cadastrar usuários, lançar receitas e despesas, categorizar transações e gerar relatórios de saldo.
 
-User registration & login with JWT
+🇺🇸 English
 
-CRUD operations for expenses & categories
+SmartBudget is a REST API built with ASP.NET Core for personal finance management. It allows users to register, add incomes and expenses, categorize transactions, and generate balance reports.
 
-Budget tracking and overspending alerts
+# 🚀 Funcionalidades | Features
 
-PostgreSQL persistence with JPA/Hibernate
+🇧🇷 Cadastro e autenticação de usuários (JWT + Identity).
 
-API documentation with Swagger
+🇧🇷 CRUD de receitas, despesas e categorias.
 
-Docker support for easy deployment
+🇧🇷 Relatórios de saldo e gastos por categoria.
 
-# 🛠 Tech Stack
+🇧🇷 Documentação automática com Swagger.
 
-Java 17, Spring Boot, Maven
+🇧🇷 Deploy containerizado com Docker.
 
-PostgreSQL, JPA/Hibernate
+🇺🇸 User registration and authentication (JWT + Identity).
 
-Spring Security + JWT
+🇺🇸 CRUD for incomes, expenses, and categories.
 
-JUnit, Mockito
+🇺🇸 Balance reports and category-based spending analysis.
+
+🇺🇸 Automatic API documentation with Swagger.
+
+🇺🇸 Containerized deploy with Docker.
+
+# 🛠️ Stack Técnica | Tech Stack
+
+ASP.NET Core Web API
+
+Entity Framework Core
+
+PostgreSQL
+
+AutoMapper
+
+Identity + JWT
+
+xUnit + Moq
+
+Swagger
 
 Docker
 
-# 🎯 Why This Project
+# 📦 Estrutura | Structure
 
-SmartBudget was designed as a smaller-scale backend project to showcase:
+SmartBudget/
+ ├── Controllers/      # Endpoints da API | API Endpoints
+ 
+ ├── Services/         # Regras de negócio | Business rules
+ 
+ ├── Repositories/     # Acesso ao banco | Database access
+ 
+ ├── Models/           # Entidades | Entities
+ 
+ ├── DTOs/             # Objetos de transferência | Data Transfer Objects
+ 
+ ├── Tests/            # Testes unitários | Unit & Integration tests
+ 
+ └── Program.cs        # Configuração inicial | Initial setup
 
-REST API design principles
-
-Secure authentication & user management
-
-Clean code and layered architecture
-
-Integration testing and documentation
-
-# 📦 Getting Started
-
-Clone repository
-
-git clone https://github.com/your-username/smartbudget.git
-
-cd smartbudget
-
-mvn spring-boot:run
-
-API available at: http://localhost:8080/api
-
-# 📖 API Documentation
-
-http://localhost:8080/swagger-ui.html
-
-# 🌐 Future Improvements
-
-Reports with charts (monthly spending trends)
-
-Notifications for overspending
-
-Cloud deployment
 
